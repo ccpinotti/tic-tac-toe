@@ -5,14 +5,36 @@
 .box {
   border: 1px solid black;
   height: 150px;
+  border-color: white ;
+  background-color: #3B653D;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+button {
+    background-color: #3B653D; /* Green */
+    border: thick;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.X{
+  text-decoration-color: blue;
+}
+div.container {
+  background-color: #3B653D;
+  border-color: brown;
+  border-style: groove;
+  border-width: 15px;
+  /*background-image: url("https://www.eduvolt.ro/images/thumbnails/600/444/detailed/9/tabla-ceramica-monobloc-culoare-verde-3000x1200-cm.jpg;")*/
+}
+h1 {
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.message{
+  font-size: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
 }

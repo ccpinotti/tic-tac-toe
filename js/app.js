@@ -19,3 +19,16 @@ $(document).ready(function() {
 
   });
 });
+
+setTimeout(fade_out, 5000);
+
+function fade_out() {
+  $(".message").fadeOut().empty();
+}
+// var "row" = ["1","2","3","4","5","6","7","8","9"];
+//
+// function boardDisplay() {
+//     console.log("| "+boardsq[0]+" | "+boardsq[1]+" | "+boardsq[2]+" |");
+//     console.log("| "+boardsq[3]+" | "+boardsq[4]+" | "+boardsq[5]+" |");
+//     console.log("| "+boardsq[6]+" | "+boardsq[7]+" | "+boardsq[8]+" |");
+// }
