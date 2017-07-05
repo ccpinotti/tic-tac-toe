@@ -7,6 +7,9 @@
   height: 150px;
   border-color: white ;
   background-color: #3B653D;
+  font-size: 90px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-color: blue;
 }
 button {
     background-color: #3B653D; /* Green */
@@ -19,9 +22,14 @@ button {
     font-size: 40px;
     font-family: 'Gloria Hallelujah', cursive;
 }
-.X{
-  text-decoration-color: blue;
+X {
+  color: blue;
 }
+
+.box2 {
+  font-size: 25px;
+}
+
 div.container {
   background-color: #3B653D;
   border-color: brown;
@@ -37,4 +45,7 @@ h1 {
   font-size: 40px;
   font-family: 'Gloria Hallelujah', cursive;
   color: white;
+}
+bx1 {
+  color: blue;
 }
